@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deploy the build'){
             steps {
-                sh 'sudo docker run -d -it --name MYAPP2 -p 99:8001 learnitguide/busapp'
+                sh 'sudo docker run -d -it --name MYAPP3 -p 99:8001 learnitguide/busapp'
             }
         }
     }
